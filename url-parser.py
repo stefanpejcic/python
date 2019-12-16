@@ -1,3 +1,9 @@
+'''
+Create link parser to take different elements from a URL string and list them in human-readable way.
+For this excersise I'm going to set 5 parameters to check for: Referral, Commission, Package, Period and Quantity.
+'''
+
+
 def parse_url_string(url):
     params = url.split('?')[1].split('&')
     car = {}
