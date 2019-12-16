@@ -5,7 +5,7 @@ def parse_url_string(url):
         car[param.split('=')[0]] = param.split('=')[1]
     return car
     
-model_x = parse_url_string('domain.com?referral=x&commission=20&package=gold&period=3&quantiy=1')
+model_x = parse_url_string('domain.com?referral=x&commission=20&package=gold&period=3&quantity=1')
 
 print model_x
 print 'Referral: %s' % model_x['referral']
