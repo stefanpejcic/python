@@ -1,3 +1,10 @@
+"""
+1. Define a product and its price.
+2. Let user set his balance and as him for a command
+3. Create 3 commands - one to display product info, another to let user purchase the product if he can afford it, and third to exit the program.
+"""
+
+
 SHOW_PRODUCT = 1
 BUY_PRODUCT  = 2
 EXIT_PROGRAM  = 3
