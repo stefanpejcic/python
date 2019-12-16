@@ -1,3 +1,7 @@
+'''
+Let user input a number, then print if its above or below zero
+'''
+
 number = int(input("Add your number: "))
 
 if(number>0):
