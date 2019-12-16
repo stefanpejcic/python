@@ -1,3 +1,10 @@
+'''
+Create a simple python calculator with the most basic operations: add,sub,mul,div
+Ask a user for two numbers and an operation, than print the result.
+'''
+
+
+
 first     = int(input("Input first operand: "))
 second    = int(input("Input second operand: "))
 operation = input("Operation (add,sub,mul,div): ")
