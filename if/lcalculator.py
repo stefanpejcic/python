@@ -1,3 +1,8 @@
+"""
+Modification from this exercise: https://github.com/stefanpejcic/python/blob/master/if/calculator.py
+to let user first specify a language and then run the calculator in their language.
+"""
+
 phrase1 = "Enter first operand? "
 phrase2 = "Enter second operand? "
 phrase3 = "Choose operation (add,sub,mul,div): "
