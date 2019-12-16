@@ -1,3 +1,9 @@
+"""
+1. create a small quiz with 3 questions and 3 answers
+2. give user 1 point for each correct answer
+3. Tell them their score at the end
+"""
+
 User_Score = 0
 
 question1 = input("Best computer ever? ")
