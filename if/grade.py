@@ -1,3 +1,7 @@
+'''
+Grade users performance: Ask them for a number from 1-5 and than print a small description about the grade.
+'''
+
 grade = int(input('Grade: '))
 if(grade==1):
     print("Worse")
