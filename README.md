@@ -6,3 +6,5 @@
 4.
 5. If Statements
 6. Loops
+
+Thinking of adding this code snippets to the repository -https://snippets.readthedocs.io/en/latest/
