@@ -1,8 +1,8 @@
-def pozdrav(ime,jezik="en"):
+def greeting(name,language="en"):
     lang = {"en":"Hello","rs":"Cao","ru":"Privet"}
-    rezultat = (lang[jezik]+" "+ime)
-    return rezultat
+    local = (lang[language]+" "+name)
+    return local
 
-res = pozdrav("Vlada","rs")
+res = greeting("Vlada","rs")
 print(res)
 
