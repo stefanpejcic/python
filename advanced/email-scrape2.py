@@ -1,6 +1,11 @@
-import re, sys, urllib
+import re
+import sys
+import urllib
 
 import urllib.request
+
+# Suppress only the single warning from urllib3 needed.
+requests.packages.urllib3.disable_warnings(category=InsecureRequestWarning)
 
 with urllib.request.urlopen(sys.argv[1]) as url:
     response = url.read()
