@@ -13,16 +13,13 @@ soup = get_page_contents(url)
 movies   = soup.findAll('h3', class_='lister-item-header')
 
 '''
-titles   = [movie.find('a').text for movie in movies]
-release  = [movie.find('span', class_='lister-item-year text-muted unbold').text for movie in movies]
-
-movie.find('div', 'inline-block ratings-imdb-rating')['data-value']
-
-votes    = movie.findAll('span' , {'name' : 'nv'})[0]['data-value']
-earnings = movie.findAll('span' , {'name' : 'nv'})[1]['data-value']
-
-director = movie.find('p').find('a').text
-actors   = [actor.text for actor in movie.find('p').findAll('a')[1:]]
+#set base url to imdb
+with open('ajde.html', 'w') as f:
+    f.write(str("<head>"))
+    f.write(str('<base href="https://www.imdb.com" target="_blank">'))
+    f.write(str('</head>'))
 '''
 
-print (movies)
+with open('ajde.html', 'a') as f:
+    for movie in movies:
+        f.write(str(movie))
